@@ -117,7 +117,39 @@ width="600"
 
 <!--Seção Contatos-->
 <section id="contatos">
-    Seção Contato
+    <h2>Fale conosco</h2>
+    <p>
+        Tem dúvidas sobre algum instrumento? Mande mensagem ou venha nos visitar.
+    </p>
+    <address>
+        <p>
+            <strong>Loja Física: </strong> Centro Histórico, Cuiabá - MT
+        </p>
+    </address>
+    <form action="#">
+        <label for="nome">Nome Completo:</label>
+        <br>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu Nome" required>
+        <br><br>
+        <label for="email">E-mail</label>
+        <br>
+        <input type="email" name="E-mail" id="E-mail" placeholder="Digite seu E-mail" required>
+        <br>
+        <label for="Departamento">Deparamento</label>
+        <br>
+        <select name="Departamento" id="Departamento">
+        <option value="vendas">Vendas</option>
+        <option value="suporte">Suporte Técinico</option>
+        <option value="financeiro">Financeiro</option>
+        <option value="sugestão">Sugestões</option>
+        </select>
+        <br><br>
+        <label for="mensagem">Mensagem</label>
+        <br>
+        <textarea name="mensagem" id="mensagem" cols="10"></textarea>
+        <br><br>
+        <button type="submit">Enviar Mensagem</button>
+    </form>
 </section>
 </main>
 
